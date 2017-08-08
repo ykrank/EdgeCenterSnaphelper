@@ -25,6 +25,7 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     androidTestCompile deps.test.espressoCore
     compile deps.support.v4
+    compile deps.support.recyclerview
     provided deps.support.annotations
 }
 
